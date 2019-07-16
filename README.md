@@ -1,12 +1,11 @@
-# mobby-platform-serverside
-
+# CRM Loopback
 ## Instalação
 
 Necessário ter o Node.js >= 8.9.0 instalado.
 
 ```
-git clone ssh://git@git.pdvm.local:2222/mob-pd/mobby-platform-serverside.git
-cd mobby-platform-serverside
+git clone https://github.com/Odilio/CRMLoopbackApi.git
+cd CRMLoopbackApi
 npm i
 npm start
 ```
