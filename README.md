@@ -4,8 +4,8 @@
 Necessário ter o Node.js >= 8.9.0 instalado.
 
 ```
-git clone https://github.com/Odilio/CRMLoopbackApi.git
-cd CRMLoopbackApi
+git clone https://github.com/Odilio/CRMLoopbackServer.git
+cd CRMLoopbackServer
 npm i
 npm start
 ```
