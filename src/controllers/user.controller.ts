@@ -102,7 +102,7 @@ export class UserController {
     return { token };
   }
 
-  @authenticate('jwt')
+ // @authenticate('jwt')
   @get('/users/count', {
     responses: {
       '200': {

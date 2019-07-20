@@ -17,7 +17,6 @@ const rest_1 = require("@loopback/rest");
 const keys_1 = require("../keys");
 const models_1 = require("../models");
 const repositories_1 = require("../repositories");
-const authentication_1 = require("@loopback/authentication");
 const core_1 = require("@loopback/core");
 const validator_1 = require("../services/validator");
 const _ = require("lodash");
@@ -60,6 +59,7 @@ let UserController = class UserController {
         const token = await this.jwtService.generateToken(userProfile);
         return { token };
     }
+    // @authenticate('jwt')
     async count(where) {
         return await this.userRepository.count(where);
     }
@@ -115,7 +115,6 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], UserController.prototype, "login", null);
 __decorate([
-    authentication_1.authenticate('jwt'),
     rest_1.get('/users/count', {
         responses: {
             '200': {

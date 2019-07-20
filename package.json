@@ -1,7 +1,7 @@
 {
-  "name": "mobby-platform-serverside",
+  "name": "crm-serverside",
   "version": "1.0.0",
-  "description": "Lado Servidor da plataforma de criação de chatbots",
+  "description": "CRM server",
   "keywords": [
     "loopback-application",
     "loopback"
@@ -50,10 +50,10 @@
     "@loopback/authentication-passport": "^0.1.0",
     "@loopback/boot": "^1.4.4",
     "@loopback/context": "^1.20.2",
-    "@loopback/core": "^1.8.5",
-    "@loopback/openapi-v3": "^1.7.0",
-    "@loopback/repository": "^1.8.2",
-    "@loopback/rest": "^1.16.3",
+    "@loopback/core": "^1.8.6",
+    "@loopback/openapi-v3": "^1.8.0",
+    "@loopback/repository": "^1.9.0",
+    "@loopback/rest": "^1.16.4",
     "@loopback/rest-explorer": "^1.2.5",
     "@loopback/service-proxy": "^1.2.5",
     "bcrypt": "^3.0.6",
